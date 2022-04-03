@@ -1,4 +1,4 @@
-h1:nth-child(2){
+/* h1:nth-child(2){
     background: green;
 }
 a[href*="google"]{
@@ -12,4 +12,40 @@ a[href*="bing"]{
 }
 input[type="text"]{
     border: 2px solid green;
+}
+.test{
+    font-size: 30px;
+}
+.test p{
+    font-size: 1em;
+} */
+img{
+    right: 700px;
+    position: absolute;
+    animation: feather 5s linear infinite;
+    
+}
+@keyframes feather {
+    0%{
+        top: 0;
+        right: 700px;  
+        opacity: 1;
+      }
+    20%{
+        right: 550px;
+    }
+     30%{
+        right: 700px;
+    }
+    40%{
+        right: 550px;
+    }
+    50%{
+        right: 700px;
+    }
+    60%{
+        top: 800px; 
+        right: 550px;
+        opacity: 0;
+    }
 }
